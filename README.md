@@ -55,9 +55,9 @@ In this challenge, you’ll use your knowledge of Python and unsupervised learni
 2. Create a composite plot by using hvPlot and the plus (+) operator to compare the cryptocurrency clusters that resulted from using the original data with those that resulted from the PCA data.
 3. Answer the following question: Based on visually analyzing the cluster analysis results, what’s the impact of using fewer features to cluster the data by using K-means?
 
-![Stacked Elbow Charts](/Completed Code/Resources/elbow_stacked.png)
+![Stacked Elbow Charts](complete_code/Resources/elbow_stacked.png)
 
-![Stacked Cluster Charts](/Completed Code/Resources/clusters_stacked.png)
+![Stacked Cluster Charts](complete_code/Resources/clusters_stacked.png)
 
 ### Resources
 
