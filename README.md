@@ -12,7 +12,7 @@ In this challenge, you’ll use your knowledge of Python and unsupervised learni
 2. To visually identify the optimal value for k, plot a line chart of all the inertia values computed with the different values of k.
 3. Answer the following question: What’s the best value for k? 4
 
-![Elbow Method Chart](/Resources/elbow_curve.png)
+![Elbow Method Chart](./Completed Code/Resources/elbow_curve.png)
 
 # Cluster the Cryptocurrencies with K-Means by Using the Original Data
 
@@ -22,7 +22,7 @@ In this challenge, you’ll use your knowledge of Python and unsupervised learni
 4. Create a copy of the original data, and then add a new column of the predicted clusters.
 5. Using hvPlot, create a scatter plot by setting x="price_change_percentage_24h" and y="price_change_percentage_7d". Color the graph points with the labels that you found by using K-means. Then add the crypto name to the hover_cols parameter to identify the cryptocurrency that each data point represents.
 
-![Original Cluster Chart](/Resources/clusters_original_data.png)
+![Original Cluster Chart](./Completed Code/Resources/clusters_original_data.png)
 
 # Optimize the Clusters with Principal Component Analysis
 
@@ -46,7 +46,7 @@ In this challenge, you’ll use your knowledge of Python and unsupervised learni
 4. Create a copy of the DataFrame with the PCA data, and then add a new column to store the predicted clusters.
 5. Using hvPlot, create a scatter plot by setting x="PC1" and y="PC2". Color the graph points with the labels that you found by using K-means. Then add the crypto name to the `hover_cols` parameter to identify the cryptocurrency that each data point represents.
 
-![PCA Cluster Chart](/Resources/clusters_pca_data.png)
+![PCA Cluster Chart](./Completed Code/Resources/clusters_pca_data.png)
 
 
 # Visualize and Compare the Results
@@ -55,9 +55,9 @@ In this challenge, you’ll use your knowledge of Python and unsupervised learni
 2. Create a composite plot by using hvPlot and the plus (+) operator to compare the cryptocurrency clusters that resulted from using the original data with those that resulted from the PCA data.
 3. Answer the following question: Based on visually analyzing the cluster analysis results, what’s the impact of using fewer features to cluster the data by using K-means?
 
-![Stacked Elbow Charts](/Resources/elbow_stacked.png)
+![Stacked Elbow Charts](./Completed Code/Resources/elbow_stacked.png)
 
-![Stacked Cluster Charts](/Resources/clusters_stacked.png)
+![Stacked Cluster Charts](./Completed Code/Resources/clusters_stacked.png)
 
 ### Resources
 
