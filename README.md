@@ -12,7 +12,7 @@ In this challenge, you’ll use your knowledge of Python and unsupervised learni
 2. To visually identify the optimal value for k, plot a line chart of all the inertia values computed with the different values of k.
 3. Answer the following question: What’s the best value for k? 4
 
-![Elbow Method Chart](/Completed Code/Resources/elbow_curve.png)
+![Elbow Method Chart](complete_code/Resources/elbow_curve.png)
 
 # Cluster the Cryptocurrencies with K-Means by Using the Original Data
 
@@ -22,7 +22,7 @@ In this challenge, you’ll use your knowledge of Python and unsupervised learni
 4. Create a copy of the original data, and then add a new column of the predicted clusters.
 5. Using hvPlot, create a scatter plot by setting x="price_change_percentage_24h" and y="price_change_percentage_7d". Color the graph points with the labels that you found by using K-means. Then add the crypto name to the hover_cols parameter to identify the cryptocurrency that each data point represents.
 
-![Original Cluster Chart](/Completed Code/Resources/clusters_original_data.png)
+![Original Cluster Chart](complete_code/Resources/clusters_original_data.png)
 
 # Optimize the Clusters with Principal Component Analysis
 
@@ -46,7 +46,7 @@ In this challenge, you’ll use your knowledge of Python and unsupervised learni
 4. Create a copy of the DataFrame with the PCA data, and then add a new column to store the predicted clusters.
 5. Using hvPlot, create a scatter plot by setting x="PC1" and y="PC2". Color the graph points with the labels that you found by using K-means. Then add the crypto name to the `hover_cols` parameter to identify the cryptocurrency that each data point represents.
 
-![PCA Cluster Chart](/Completed Code/Resources/clusters_pca_data.png)
+![PCA Cluster Chart](complete_code/Resources/clusters_pca_data.png)
 
 
 # Visualize and Compare the Results
